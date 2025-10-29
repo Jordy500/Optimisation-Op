@@ -23,3 +23,4 @@ for id_batiment in set_id_batiments:
 state_df = pd.DataFrame({"id_batiment": list_id_batiments, "state_batiment": state_batiments})
 state_df.columns = ["id_batiment", "state_batiment"]
 state_df.to_excel("batiments_electricite.xlsx", index=False, columns=["id_batiment", "state_batiment"])
+
