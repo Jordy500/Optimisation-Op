@@ -3,4 +3,4 @@
 On a besoin:\
 -Les types des batiments pour définir les priorités\
 -Le nombre de maisons par chaque batiments semble ettre erroné\
- -Les couts des infras
+ -Les couts des infras et le temps que ça prend
