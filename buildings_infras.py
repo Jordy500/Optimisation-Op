@@ -75,7 +75,7 @@ def replace_infra_ids(cluster_str):
         return None
 
 # Appliquer la fonction
-final_df['cluster_infra'] = final_df['cluster_infra'].apply(replace_infra_ids)
+final_df['cluster_infra_'] = final_df['cluster_infra'].apply(replace_infra_ids)
 
 # Vérifier
 print(final_df.head())

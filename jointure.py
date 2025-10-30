@@ -56,7 +56,7 @@ def calculer_prix_et_duree(cluster_infra_str):
         return pd.Series([0, 0])
 
 # Appliquer la fonction pour chaque ligne
-final_df[['cout_total', 'duree_totale']] = final_df['cluster_infra'].apply(calculer_prix_et_duree)
+final_df[['cout_total', 'duree_totale']] = final_df['cluster_infra_'].apply(calculer_prix_et_duree)
 
 # Vérification du résultat
 print(final_df.head())
