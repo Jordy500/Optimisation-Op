@@ -40,26 +40,39 @@ def calculer_prix_et_duree(cluster_infra_str):
         if not isinstance(cluster, dict):
             return pd.Series([0, 0])
         
-        # Calcul du coût total et de la durée totale
         cout_total = 0
         duree_totale = 0
-        for infra_type, longueur in cluster.items():
+
+        for key, longueur in cluster.items():
+            # key est un tuple (id_infra, type_infra)
+            if isinstance(key, tuple):
+                _, infra_type = key
+            else:
+                # Si ce n’est pas un tuple (sécurité)
+                infra_type = key
+
+            # Récupérer prix et durée correspondants au type
             prix_m = prix_dict.get(infra_type, 0)
             duree_h = duree_dict.get(infra_type, 0)
+
+            # Ajouter les valeurs pondérées par la longueur
             cout_total += prix_m * longueur
             duree_totale += duree_h * longueur
         
         return pd.Series([cout_total, duree_totale])
+
     except Exception as e:
         print("Erreur sur :", cluster_infra_str)
         print(e)
         return pd.Series([0, 0])
 
 # Appliquer la fonction pour chaque ligne
-final_df[['cout_total', 'duree_totale']] = final_df['cluster_infra_'].apply(calculer_prix_et_duree)
+final_df[['cout_total', 'duree_totale']] = final_df['cluster_infra'].apply(calculer_prix_et_duree)
 
 # Vérification du résultat
 print(final_df.head())
+
+final_df.drop(columns=['state_batiment', 'infra_type'], inplace=True)
 
 # Sauvegarde
 final_df.to_csv("all_for_one_avec_cout.csv", index=False)

@@ -44,38 +44,40 @@ final_df = pd.merge(extra_info, cluster_df, on='id_batiment', how='left')
 print(final_df.head())
 
 
-# Mapping id_infra → type_infra
+import pandas as pd
+import ast
+
+# Exemple : df2 contient la correspondance id_infra → type_infra
+# df2 = pd.read_csv("infra_types.csv")
 infra_map = dict(zip(df2['id_infra'], df2['type_infra']))
 
-def replace_infra_ids(cluster_str):
+def add_type_to_infra(cluster_str):
     if pd.isna(cluster_str):
         return None
     try:
-        # Assure-toi que c'est bien une chaîne
+        # Convertir la chaîne en dictionnaire
         if isinstance(cluster_str, str):
             cluster_dict = ast.literal_eval(cluster_str)
         else:
             cluster_dict = cluster_str
-        
+
         new_dict = {}
         for infra_id, longueur in cluster_dict.items():
-            # Récupérer le type si présent, sinon garder l'id
-            type_infra = infra_map.get(infra_id, infra_id)
-            
-            # Additionner les longueurs si le type existe déjà
-            if type_infra in new_dict:
-                new_dict[type_infra] += longueur
-            else:
-                new_dict[type_infra] = longueur
-        
+            # On crée une clé tuple : (infra_id, type_infra)
+            type_infra = infra_map.get(infra_id, "inconnu")
+            new_dict[(infra_id, type_infra)] = longueur
+
         return new_dict
+
     except Exception as e:
         print("Erreur sur :", cluster_str)
         print(e)
         return None
 
+
+
 # Appliquer la fonction
-final_df['cluster_infra_'] = final_df['cluster_infra'].apply(replace_infra_ids)
+final_df['cluster_infra'] = final_df['cluster_infra'].apply(add_type_to_infra)
 
 # Vérifier
 print(final_df.head())
