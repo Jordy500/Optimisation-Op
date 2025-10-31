@@ -13,9 +13,9 @@ list_id_batiments, state_batiment = [], []
 for id_batiment in network_data['id_batiment'].values:
     list_id_batiments.append(id_batiment)
     if id_batiment in set_id_broken_batiments:
-        state_batiment.append("a_reparer")  # 0 signifie pas d'electricite
+        state_batiment.append("a_reparer")  
     else:
-        state_batiment.append("intact")  # 1 signifie avec electricite
+        state_batiment.append("intact") 
         
         
 state_df = pd.DataFrame({'id_batiment': list_id_batiments, 'state_batiment': state_batiment})
