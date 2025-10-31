@@ -1,0 +1,86 @@
+id_batiment,nb_maisons,infra_type,cluster_infra
+E000003,1,a_remplacer,{'aerien': 54.541389487204796}
+E000067,1,a_remplacer,"{'fourreau': 12.1863879405322, 'semi-aerien': 10.8032015604234, 'aerien': 4.10990474598487}"
+E000085,1,a_remplacer,"{'aerien': 31.8448959373626, 'fourreau': 2.84535154473363}"
+E000098,1,a_remplacer,"{'aerien': 14.8493095953268, 'fourreau': 6.13280316452202}"
+E000106,1,a_remplacer,"{'aerien': 34.973247362001224, 'fourreau': 7.63593644945982}"
+E000107,1,a_remplacer,"{'aerien': 36.9486087231383, 'fourreau': 7.63593644945982}"
+E000108,1,a_remplacer,"{'aerien': 13.1420349052071, 'fourreau': 42.56689899583969}"
+E000109,1,a_remplacer,"{'aerien': 18.76904282126689, 'fourreau': 37.638407796546105}"
+E000110,1,a_remplacer,"{'aerien': 50.2056689200154, 'fourreau': 16.23573536011245}"
+E000111,1,a_remplacer,"{'aerien': 24.383328944578, 'fourreau': 1.36523196955369}"
+E000112,1,a_remplacer,{'aerien': 20.8850694074126}
+E000127,1,a_remplacer,"{'aerien': 18.72781205143875, 'fourreau': 5.85611808756648}"
+E000128,1,a_remplacer,"{'aerien': 25.4404189547816, 'semi-aerien': 4.5706986139249}"
+E000129,1,a_remplacer,"{'aerien': 54.066133581215404, 'semi-aerien': 5.64944506755882}"
+E000144,1,a_remplacer,"{'aerien': 31.215556904555797, 'fourreau': 17.19477227188328}"
+E000145,1,a_remplacer,"{'aerien': 20.10909567968855, 'fourreau': 17.63674786758752}"
+E000146,1,a_remplacer,"{'aerien': 43.34373287532563, 'semi-aerien': 4.65316558492902}"
+E000160,1,a_remplacer,{'aerien': 75.48309087581544}
+E000161,1,a_remplacer,"{'aerien': 71.15523074689173, 'semi-aerien': 4.98282106064181, 'fourreau': 8.43108274854405}"
+E000174,1,a_remplacer,{'aerien': 116.273148672769}
+E000175,1,a_remplacer,"{'aerien': 128.06193675469711, 'semi-aerien': 10.0082136912815}"
+E000176,1,a_remplacer,"{'aerien': 71.15523074689173, 'fourreau': 45.3616339171519, 'semi-aerien': 11.2796548571624}"
+E000177,1,a_remplacer,"{'aerien': 71.15523074689173, 'fourreau': 59.52817515879915}"
+E000178,1,a_remplacer,"{'aerien': 65.70313927444873, 'fourreau': 9.687989616339301}"
+E000183,1,a_remplacer,"{'semi-aerien': 2.71913580007238, 'fourreau': 20.455789433764, 'aerien': 12.7359304342272}"
+E000184,1,a_remplacer,"{'semi-aerien': 13.12206391408338, 'aerien': 36.9797725156077}"
+E000185,1,a_remplacer,"{'aerien': 19.351376260792698, 'fourreau': 6.93113318288768}"
+E000188,1,a_remplacer,"{'semi-aerien': 16.94230557102394, 'aerien': 6.96033389014315}"
+E000193,1,a_remplacer,"{'aerien': 135.70250281043016, 'semi-aerien': 12.0182044137484}"
+E000194,1,a_remplacer,{'aerien': 37.546868144958765}
+E000195,1,a_remplacer,{'aerien': 37.546868144958765}
+E000196,1,a_remplacer,{'aerien': 37.546868144958765}
+E000197,1,a_remplacer,"{'aerien': 70.66310718008012, 'fourreau': 4.2679056836056}"
+E000198,1,a_remplacer,"{'aerien': 59.381728183391786, 'fourreau': 16.22854665526377, 'semi-aerien': 13.8302331906613}"
+E000222,1,a_remplacer,"{'aerien': 14.5718479009645, 'semi-aerien': 8.53830202306228}"
+E000225,1,a_remplacer,{'aerien': 37.546868144958765}
+E000226,1,a_remplacer,"{'aerien': 64.94493589309181, 'fourreau': 11.1522104316483}"
+E000227,1,a_remplacer,"{'aerien': 72.53543143268145, 'fourreau': 4.2679056836056}"
+E000228,1,a_remplacer,"{'aerien': 62.186053938255895, 'fourreau': 12.216237302400234, 'semi-aerien': 10.0806400820172}"
+E000229,1,a_remplacer,"{'aerien': 62.186053938255895, 'fourreau': 15.64324189549101, 'semi-aerien': 10.0806400820172}"
+E000252,1,a_remplacer,"{'aerien': 24.044377872711408, 'semi-aerien': 17.9351395403247}"
+E000257,1,a_remplacer,"{'aerien': 40.944835981830806, 'fourreau': 24.8897318328135}"
+E000258,1,a_remplacer,{'aerien': 37.546868144958765}
+E000259,1,a_remplacer,{'aerien': 37.546868144958765}
+E000260,1,a_remplacer,"{'aerien': 66.92437694067281, 'fourreau': 25.36681758563945}"
+E000266,1,a_remplacer,"{'aerien': 24.1885441312454, 'semi-aerien': 9.64962873769354}"
+E000267,1,a_remplacer,"{'fourreau': 18.72776161493521, 'aerien': 8.31138115880164}"
+E000268,1,a_remplacer,"{'fourreau': 9.77631599620947, 'aerien': 22.99075334809634}"
+E000274,1,a_remplacer,{'aerien': 21.160613810546728}
+E000275,1,a_remplacer,"{'aerien': 71.23589997298384, 'fourreau': 24.215994177318258}"
+E000293,1,a_remplacer,"{'aerien': 38.9364916542442, 'fourreau': 4.45174541295179}"
+E000301,1,a_remplacer,"{'aerien': 18.63848603132793, 'semi-aerien': 3.57039201834049, 'fourreau': 6.31480197224767}"
+E000302,1,a_remplacer,"{'aerien': 37.546868144958765, 'fourreau': 6.09090915018645}"
+E000303,1,a_remplacer,"{'aerien': 78.64439022671966, 'fourreau': 32.259380035417976}"
+E000315,1,a_remplacer,{'aerien': 44.49718394475332}
+E000316,1,a_remplacer,{'aerien': 50.750235362986395}
+E000317,1,a_remplacer,"{'aerien': 73.00638769660475, 'fourreau': 32.259380035417976}"
+E000322,1,a_remplacer,"{'fourreau': 12.5562775429942, 'aerien': 23.740054649807497}"
+E000325,1,a_remplacer,"{'aerien': 30.79317894615113, 'fourreau': 12.783994785838608, 'semi-aerien': 32.2334229767792}"
+E000326,1,a_remplacer,"{'aerien': 24.1885441312454, 'fourreau': 4.45174541295179, 'semi-aerien': 54.322468513901505}"
+E000327,1,a_remplacer,"{'aerien': 69.95046363875906, 'fourreau': 35.817415660586136, 'semi-aerien': 4.16591671935325}"
+E000346,1,a_remplacer,"{'fourreau': 12.5562775429942, 'aerien': 18.98534467004762, 'semi-aerien': 11.7815303649109}"
+E000358,1,a_remplacer,"{'aerien': 73.40827685985879, 'fourreau': 37.118133139541214, 'semi-aerien': 4.16591671935325}"
+E000359,1,a_remplacer,"{'fourreau': 12.5562775429942, 'aerien': 35.915554091849465}"
+E000360,1,a_remplacer,"{'fourreau': 35.523400123357604, 'aerien': 16.91115486295961}"
+E000361,1,a_remplacer,"{'fourreau': 42.134782790968686, 'aerien': 12.4769836838268}"
+E000363,1,a_remplacer,"{'aerien': 67.79352269898375, 'fourreau': 45.72159084634184, 'semi-aerien': 4.16591671935325}"
+E000364,1,a_remplacer,{'aerien': 24.71856093749173}
+E000365,1,a_remplacer,"{'aerien': 19.80041962023871, 'fourreau': 9.91136244085116}"
+E000366,1,a_remplacer,"{'fourreau': 12.5562775429942, 'aerien': 35.38213304071397, 'semi-aerien': 12.9024250386495}"
+E000367,1,a_remplacer,"{'fourreau': 35.523400123357604, 'aerien': 18.72942770840189}"
+E000368,1,a_remplacer,"{'fourreau': 35.523400123357604, 'aerien': 19.39386732723423}"
+E000369,1,a_remplacer,"{'fourreau': 50.37996272748988, 'aerien': 8.03245737103393}"
+E000370,1,a_remplacer,"{'aerien': 75.08571601115591, 'fourreau': 40.81290916036541, 'semi-aerien': 7.01431330545749}"
+E000371,1,a_remplacer,"{'aerien': 91.35812783433778, 'fourreau': 40.81290916036541, 'semi-aerien': 4.16591671935325}"
+E000372,1,a_remplacer,"{'fourreau': 51.00369064177249, 'aerien': 8.03245737103393, 'semi-aerien': 8.0897383575819}"
+E000373,1,a_remplacer,"{'aerien': 40.64935998448231, 'fourreau': 9.97549376892212}"
+E000374,1,a_remplacer,"{'aerien': 30.32139440427661, 'fourreau': 21.1007669425209}"
+E000375,1,a_remplacer,"{'fourreau': 42.134782790968686, 'aerien': 17.362020671649212, 'semi-aerien': 14.20349300555662}"
+E000376,1,a_remplacer,"{'aerien': 44.97968086858821, 'fourreau': 12.850042961246631}"
+E000377,1,a_remplacer,"{'aerien': 42.04115362936421, 'fourreau': 7.74281322100572, 'semi-aerien': 10.1403162890544}"
+E000378,1,a_remplacer,{'aerien': 63.053739864144575}
+E000379,1,a_remplacer,"{'fourreau': 42.134782790968686, 'aerien': 13.86756872242854, 'semi-aerien': 25.16824839255392}"
+E000380,1,a_remplacer,"{'aerien': 47.86289075619198, 'fourreau': 17.53409413521749}"
+E000381,1,a_remplacer,"{'aerien': 65.39141483531581, 'semi-aerien': 7.44176035956022}"
